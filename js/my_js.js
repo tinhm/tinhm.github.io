@@ -62,7 +62,7 @@ let timer = setInterval(function() {
 	}
 	
 
-}, 1000000);
+}, 1000);
 
 
 function Play_action(){

@@ -119,6 +119,11 @@ h1 {
     border: 1px solid #276FBF;
   }
 }
+.blue .string {
+    background: #276FBF;
+    border: 1px solid #276FBF;
+  }
+
 
 .balloon {
   border: 1px solid #000;

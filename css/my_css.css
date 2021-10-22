@@ -42,7 +42,7 @@ h1 {
 .days, .hours, .minutes, .seconds {
   display: inline-block;
   padding: 20px;
-  width: 100px;
+  width: 70px;
   border-radius: 5px;
 }
 

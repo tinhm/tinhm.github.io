@@ -8,7 +8,7 @@ html {
 
 body {
   display: grid;
-  background: #7a98ca;
+  background: #3e6dbb;
 }
 
 .container {
@@ -57,7 +57,7 @@ h1 {
 }
 
 .minutes {
-  background: #276FBF;
+  background: #6a9ef3;
 }
 
 .seconds {
@@ -109,7 +109,7 @@ h1 {
 
 .blue {
   position: absolute;
-  background: #276FBF;
+  background: #0065d6;
   height: 80px;
   width: 80px;
   left: 16%;
@@ -117,11 +117,11 @@ h1 {
 }
 
 .blue .triangle {
-    border-bottom: 14px solid #276FBF;
+    border-bottom: 14px solid #0065d6;
   }
 .blue .string {
-    background: #276FBF;
-    border: 1px solid #276FBF;
+    background: #0065d6;
+    border: 1px solid #0065d6;
   }
 
 
@@ -280,3 +280,17 @@ footer {
 	height: 85px;
 	margin-left: 50%;
 }
+
+.muiten{
+	display: none;
+	background-image: url('https://tinhm.github.io/pict/hopqua1.png');
+	background-repeat: no-repeat; 
+	background-size: 50%;
+	width: 70px;
+	height: 85px;
+	margin-left: 50%;
+}
+
+canvas{
+	display:block;
+	}

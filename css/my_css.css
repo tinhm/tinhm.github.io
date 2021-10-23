@@ -15,7 +15,7 @@ body {
   position: relative;
   margin-top: 5%;
   overflow: hidden;
-  width: 100%;
+  width: 375px;
   height: 480px;
 }
 
@@ -78,8 +78,8 @@ h1 {
   background: #F6F4F3;
   height: 85px;
   width: 75px;
-  left: 35%;
-  top: 15%; 
+  left: 71%;
+  top: 10%; 
 }
 
 .white .triangle {
@@ -93,7 +93,7 @@ h1 {
 .red {
   position: absolute;
   background: #EF2F3C;
-  left: 18%;
+  left: 45%;
   top: 13%;
   height: 65px;
   width: 70px; 
@@ -112,7 +112,7 @@ h1 {
   background: #276FBF;
   height: 80px;
   width: 80px;
-  left: 60%;
+  left: 16%;
   top: 10%; 
 }
 
@@ -224,3 +224,49 @@ footer {
     }
   }
 }
+
+
+
+/* You can remove these code below*/
+  :root {
+    --primary: #08aeea;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+  }*{box-sizing:border-box;}input,button,textarea{border:0;outline:none;}
+  /* Main code */
+  
+  .line-loading {
+	width: 50%;
+	height: 0.5rem;
+	position: relative;
+	margin: 0 auto;
+  }
+  .line-loading:before {
+	content: "";
+	position: absolute;
+	right: auto;
+	left: 0;
+	height: 100%;
+	background-color: var(--primary);
+	animation: lineLoading 1s forwards infinite linear;
+  }
+
+  @keyframes lineLoading {
+	0% {
+	  right: 100%;
+	}
+	50% {
+	  right: 0;
+	  left: 0;
+	}
+	100% {
+	  right: 0;
+	  left: 100%;
+	}
+  }

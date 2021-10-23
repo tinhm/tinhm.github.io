@@ -8,7 +8,7 @@ html {
 
 body {
   display: grid;
-  background: #183059;
+  background: #7a98ca;
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
   margin-top: 5%;
   overflow: hidden;
   width: 375px;
-  height: 480px;
+  //height: 480px;
 }
 
 h1 {
@@ -274,4 +274,9 @@ footer {
 .muiten{
 	display: none;
 	background-image: url('https://tinhm.github.io/pict/muiten.png');
+	background-repeat: no-repeat; 
+	background-size: 50%;
+	width: 70px;
+	height: 85px;
+	margin-left: 50%;
 }

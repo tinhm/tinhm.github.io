@@ -242,7 +242,7 @@ footer {
   /* Main code */
   
   .line-loading {
-	width: 100%;
+	width: 50%;
 	height: 0.5rem;
 	position: relative;
 	margin: 0 auto;
@@ -252,8 +252,8 @@ footer {
 	position: absolute;
 	right: auto;
 	left: 0;
-	height: 100%;
-	background-color: var(--primary);
+	height: 50%;
+	background-color: var(--purple);
 	animation: lineLoading 1s forwards infinite linear;
   }
 
@@ -264,9 +264,13 @@ footer {
 	50% {
 	  right: 0;
 	  left: 0;
-	}
+	} 
 	100% {
 	  right: 0;
 	  left: 100%;
 	}
   }
+  
+.muiten{
+	display: none;
+}

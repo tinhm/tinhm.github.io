@@ -68,7 +68,7 @@ let timer = setInterval(function() {
 function Play_action(){
 	//alert('accccccccccccccccccccc');
 	$(".muiten").show();
-	$(".hopqua1").show();
+	//$(".hopqua1").show();
 }
 
 function hopqua1_cl(){

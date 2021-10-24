@@ -17,6 +17,8 @@ body {
   overflow: hidden;
   width: 375px;
   //height: 480px;
+  overflow-x:hidden;
+	overflow-y:auto;
 }
 
 h1 {
@@ -276,8 +278,8 @@ footer {
 	background-image: url('https://tinhm.github.io/pict/muiten.png');
 	background-repeat: no-repeat; 
 	background-size: 15%;
-	width: 100%;
-	height: 100%;
+	width: 200px;
+	height: 200px;
 	margin-left: 50%;
 }
 
@@ -286,8 +288,8 @@ footer {
 	background-image: url('https://tinhm.github.io/pict/hopqua1.png');
 	background-repeat: no-repeat; 
 	background-size: 100%;
-	width: 100%;
-	height: 100%;
+	width: 200px;
+	height: 200px;
 	margin-left: 50%;
 }
  

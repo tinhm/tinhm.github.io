@@ -2,7 +2,7 @@ const year = new Date().getFullYear();
 const fourthOfJuly = new Date(year, 10, 20).getTime();
 const fourthOfJulyNextYear = new Date(year + 1, 10, 20).getTime();
 const month = new Date().getMonth();
-const countDownDate = new Date("Oct 23, 2021 12:07:00").getTime();
+const countDownDate = new Date("Oct 24, 2021 10:36:00").getTime();
 const countDownDateNextY = new Date("Nov 7, 2022 00:00:00").getTime();
 // countdown	1637254800000
 let timer = setInterval(function() {
@@ -68,7 +68,7 @@ let timer = setInterval(function() {
 function Play_action(){
 	//alert('accccccccccccccccccccc');
 	$(".muiten").show();
-	//$(".hopqua1").show();
+	$(".hopqua1").show();
 }
 
 function hopqua1_cl(){

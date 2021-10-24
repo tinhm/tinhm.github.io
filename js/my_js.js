@@ -65,17 +65,13 @@ let timer = setInterval(function() {
 }, 1000);
 
 
-function Play_action(){
-	//alert('accccccccccccccccccccc');
+function Play_action(){ 
 	$(".muiten").show();
 	$(".hopqua1").show();
 }
 
 function hopqua1_cl(){
-	//$(".hopqua1").hide();
-	//var modal = document.getElementById("myModal1");
-	//modal.style.display = "block";
-	
+ 
 	$('#myModal1').modal('show');
 	document.getElementById("beep").pause();
 	document.getElementById('beep').muted = false;

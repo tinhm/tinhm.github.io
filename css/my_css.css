@@ -275,7 +275,7 @@ footer {
   
 .muiten{
 	display: none;
-	background-image: url('https://tinhm.github.io/pict/muiten.png');
+	background-image: url('../pict/muiten.png');
 	background-repeat: no-repeat; 
 	background-size: 15%;
 	width: 200px;
@@ -285,7 +285,7 @@ footer {
 
 .hopqua1{
 	display: none;
-	background-image: url('https://tinhm.github.io/pict/hopqua1.png');
+	background-image: url('../pict/hopqua1.gif');
 	background-repeat: no-repeat; 
 	background-size: 100%;
 	width: 200px;
@@ -293,3 +293,11 @@ footer {
 	margin-left: 50%;
 }
  
+ 
+.banhsn{ 
+	background-image: url('../pict/banh_small.gif');
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	width: 200px;
+	height: 200px;
+}

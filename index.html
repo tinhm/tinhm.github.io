@@ -3,6 +3,7 @@
 <head>
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" type="text/css" media="all">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
@@ -15,18 +16,10 @@
 		<!-- Tiêu đề của trang -->
 		<meta property="og:type" content="website" />
 		<meta name="author" content="thm">
-		
-		<!-- 
-		<link rel="stylesheet" href="https://tinhm.github.io/css/my_css.css" type="text/css" /> 
-		<script language="javascript" src="https://tinhm.github.io/js/my_js.js"></script>
-		-->
-		
-		<link rel="stylesheet" href="D:/WEB/tinhm.github.io/css/my_css.css" type="text/css" /> 
-		<script language="javascript" src="D:/WEB/tinhm.github.io/js/my_js.js"></script> 
-		
+		 
      </head>
      <body> 
-	 
+	  
 		<div class="container">
 			  <div class="balloon white">
 				<div class="star-red"></div>
@@ -63,21 +56,22 @@
 			  <div id="timer"></div>
 			  <h1>Spill the beans</h1>
 			  <div class="line-loading"></div>
-			  <!--          -->
-			  
+			    
 			  <div class="muiten" id="muiten"></div>
 			  <div class="hopqua1" id="hopqua1" onclick="hopqua1_cl()"></div>
+			   
 		</div> 
 		 
-		<div id="myModal1" class="modal" tabindex="-1" role="dialog"> 
-			<div class="modal-content">
+		<div id="myModal1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" > 
+			<div class="modal-body">
+			  <div class="banhsn"></div>
+			  <div class="text-banhsn"> </div> 
 			  
-			  <div class="banhsn"> 
-				<canvas id="birthday"></canvas> 
-			  </div>
-			  <div class="text-banhsn"> </div>
-			</div>
-		 
+			  <audio id="beep" src="D:/WEB/tinhm.github.io/pict/hpbd.mp3" autoPlay muted></audio> 
+			  
+			<div class="modal-body">
+				
+			</div> 
 		</div>
 		  
 		<div id="myModal3" class="modal" tabindex="-1" role="dialog">
@@ -98,8 +92,9 @@
 			</div>
 		 
 		</div>
-
-
- 
+  
+		<link rel="stylesheet" href="D:/WEB/tinhm.github.io/css/my_css.css" type="text/css" /> 
+		<script language="javascript" src="D:/WEB/tinhm.github.io/js/my_js.js"></script>  
+		
      </body>
      </html>

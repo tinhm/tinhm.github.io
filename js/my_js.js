@@ -72,8 +72,14 @@ function Play_action(){
 }
 
 function hopqua1_cl(){
-	$(".hopqua1").hide();
-	var modal = document.getElementById("myModal1");
-	modal.style.display = "block";
+	//$(".hopqua1").hide();
+	//var modal = document.getElementById("myModal1");
+	//modal.style.display = "block";
+	
+	$('#myModal1').modal('show');
+	document.getElementById("beep").pause();
+	document.getElementById('beep').muted = false;
+	document.getElementById("beep").play();
+	 
 }
 

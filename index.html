@@ -1,5 +1,116 @@
-<script>
-<!--
-document.write(unescape("%3C%21DOCTYPE%20html%3E%0A%3Chtml%20lang%3D%22en%22%3E%0A%3Chead%3E%0A%09%09%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text/html%3Bcharset%3DUTF-8%22%20/%3E%0A%09%09%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%22%3E%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css%22%3E%0A%09%09%3Cscript%20src%3D%22https%3A//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E%3C/script%3E%0A%09%09%3Cscript%20src%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js%22%3E%3C/script%3E%20%20%0A%09%09%3Ctitle%3EHXGHHH%3C/title%3E%0A%09%09%3C%21--%20Ti%EAu%20%u0111%u1EC1%20c%u1EE7a%20trang%20--%3E%0A%09%09%3CMETA%20NAME%3D%22description%22%20CONTENT%3D%22%u0110o%E1n%20xem%3F%22%20/%3E%0A%09%09%3C%21--%20Description%20ng%u1EAFn%20--%3E%20%0A%09%09%3Cmeta%20property%3D%22og%3Atitle%22%20content%3D%22CH%u1EA0M%22%20/%3E%0A%09%09%3CLINK%20REL%3D%22SHORTCUT%20ICON%22%20%20HREF%3D%22https%3A//tinhm.github.io/pict/Logo.ico%22%3E%0A%09%09%3C%21--%20Ti%EAu%20%u0111%u1EC1%20c%u1EE7a%20trang%20--%3E%0A%09%09%3Cmeta%20property%3D%22og%3Atype%22%20content%3D%22website%22%20/%3E%0A%09%09%3Cmeta%20name%3D%22author%22%20content%3D%22thm%22%3E%0A%09%09%20%0A%20%20%20%20%20%3C/head%3E%0A%20%20%20%20%20%3Cbody%3E%20%0A%09%20%20%0A%09%09%3Cdiv%20class%3D%22container%22%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22balloon%20white%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22star-red%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22face%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22mouth%20happy%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye2%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22triangle%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22string%22%3E%3C/div%3E%0A%09%09%09%09%3C/div%3E%0A%0A%09%09%09%3Cdiv%20class%3D%22balloon%20red%22%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22star%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22face%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22mouth%20happy%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye2%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22triangle%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22string%22%3E%3C/div%3E%0A%09%09%09%3C/div%3E%0A%0A%09%09%09%3Cdiv%20class%3D%22balloon%20blue%22%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22star%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22face%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22mouth%20happy%22%3E%3C/div%3E%0A%09%09%09%09%3Cdiv%20class%3D%22eye2%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22triangle%22%3E%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22string%22%3E%3C/div%3E%0A%09%09%09%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20id%3D%22timer%22%3E%3C/div%3E%0A%09%09%09%20%20%3Ch1%3ESpill%20the%20beans%3C/h1%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22line-loading%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/br%3E%20%20%0A%09%09%09%20%20%3Cdiv%20class%3D%22muiten%22%20id%3D%22muiten%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/br%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22hopqua1%22%20id%3D%22hopqua1%22%20onclick%3D%22hopqua1_cl%28%29%22%3E%3C/div%3E%0A%09%09%09%20%20%20%0A%09%09%09%20%20%20%0A%09%09%09%20%20%20%3Cdiv%20class%3D%22action%22%3E%0A%09%09%09%09%20%20%3Ci%20class%3D%22fa%20fa-times%20action-item%20action-dislike%22%3E%3C/i%3E%0A%09%09%09%09%20%20%3Ci%20class%3D%22fa%20fa-heart%20action-item%20action-like%22%3E%3C/i%3E%0A%09%09%09%09%3C/div%3E%0A%09%09%3C/div%3E%20%0A%09%09%20%0A%09%09%3Cdiv%20id%3D%22myModal1%22%20class%3D%22modal%20fade%20bs-example-modal-lg%22%20tabindex%3D%22-1%22%20role%3D%22dialog%22%20%3E%20%0A%09%09%09%3Cdiv%20class%3D%22modal-body%22%3E%0A%09%09%09%09%3Cdiv%20class%3D%22banhsn%22%3E%3C/div%3E%0A%09%09%09%09%3C/br%3E%0A%09%09%09%09%3Cdiv%20class%3D%22box%22%3E%0A%09%09%09%09%20%20%3Cdiv%20class%3D%22coin%22%3E%3C/div%3E%0A%09%09%09%09%3C/div%3E%0A%09%09%09%09%3C/br%3E%0A%09%09%09%09%3Cdiv%20class%3D%22text-banhsn%22%3E%20%3C/div%3E%20%0A%09%09%09%09%0A%09%09%09%09%0A%09%09%09%09%3C%21--%0A%09%09%09%20%20%3Caudio%20id%3D%22beep%22%20src%3D%22D%3A/WEB/tinhm.github.io/pict/hpbd.mp3%22%20autoPlay%20muted%3E%3C/audio%3E%20%0A%09%09%09%20%20--%3E%0A%09%09%09%20%20%3Caudio%20id%3D%22beep%22%20src%3D%22https%3A//tinhm.github.io/pict/hpbd.mp3%22%20autoPlay%20muted%3E%3C/audio%3E%0A%09%09%09%20%20%0A%09%09%09%20%0A%09%09%09%3C/div%3E%20%0A%09%09%3C/div%3E%0A%09%09%20%20%0A%09%09%3Cdiv%20id%3D%22myModal3%22%20class%3D%22modal%22%20tabindex%3D%22-1%22%20role%3D%22dialog%22%3E%0A%09%09%20%20%0A%09%09%09%3Cdiv%20class%3D%22modal-content%22%3E%0A%09%09%09%20%20%0A%09%09%09%20%20%3Cdiv%20class%3D%22modal-body%22%3E%0A%09%09%09%09%0A%09%09%09%09%09%3Cdiv%20class%3D%22text_end%22%3E%20%0A%09%09%09%09%09%20%20%20%0A%09%09%09%09%09%3C/div%3E%0A%09%09%09%20%20%3C/div%3E%0A%09%09%09%20%20%3Cdiv%20class%3D%22modal-footer%22%3E%0A%09%09%09%09%09%3Cdiv%20class%3D%22col-xs-4%22%3E%3C/div%3E%0A%09%09%09%09%09%3Cdiv%20class%3D%22col-xs-4%22%3E%3Cbutton%20type%3D%22button%22%20%3E%3Ca%20class%3D%22link%22%20href%3D%22https%3A//m.me/manhtin08%22%20style%20%3D%22color%3A%20red%20%21important%3B%22%20%3ENh%u1EAFn%20Tin%3C/a%3E%3C/button%3E%3C/div%3E%0A%09%09%09%09%09%3Cdiv%20class%3D%22col-xs-4%22%3E%3C/div%3E%0A%09%09%09%20%20%3C/div%3E%0A%09%09%09%3C/div%3E%0A%09%09%20%0A%09%09%3C/div%3E%0A%20%20%3C%21--%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22D%3A/WEB/tinhm.github.io/css/my_css.css%22%20type%3D%22text/css%22%20/%3E%20%0A%09%09%3Cscript%20language%3D%22javascript%22%20src%3D%22D%3A/WEB/tinhm.github.io/js/my_js.js%22%3E%3C/script%3E%20%20%0A%09%09--%3E%0A%09%09%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//tinhm.github.io/css/my_css.css%22%20type%3D%22text/css%22%20/%3E%20%0A%09%09%3Cscript%20language%3D%22javascript%22%20src%3D%22https%3A//tinhm.github.io/js/my_js.js%22%3E%3C/script%3E%20%20%0A%09%09%0A%20%20%20%20%20%3C/body%3E%0A%20%20%20%20%20%3C/html%3E"));
-//-->
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  
+		<title>HXGHHH</title>
+		<!-- Tiêu đề của trang -->
+		<META NAME="description" CONTENT="Đoán xem?" />
+		<!-- Description ngắn --> 
+		<meta property="og:title" content="CHẠM" />
+		<LINK REL="SHORTCUT ICON"  HREF="https://tinhm.github.io/pict/Logo.ico">
+		<!-- Tiêu đề của trang -->
+		<meta property="og:type" content="website" />
+		<meta name="author" content="thm">
+		 
+     </head>
+     <body> 
+	  
+		<div class="container">
+			  <div class="balloon white">
+				<div class="star-red"></div>
+			  <div class="face">
+				<div class="eye"></div>
+				<div class="mouth happy"></div>
+				<div class="eye2"></div>
+			  </div>
+			  <div class="triangle"></div>
+			  <div class="string"></div>
+				</div>
+
+			<div class="balloon red">
+			  <div class="star"></div>
+			  <div class="face">
+				<div class="eye"></div>
+				<div class="mouth happy"></div>
+				<div class="eye2"></div>
+			  </div>
+			  <div class="triangle"></div>
+			  <div class="string"></div>
+			</div>
+
+			<div class="balloon blue">
+			  <div class="star"></div>
+			  <div class="face">
+				<div class="eye"></div>
+				<div class="mouth happy"></div>
+				<div class="eye2"></div>
+			  </div>
+			  <div class="triangle"></div>
+			  <div class="string"></div>
+			</div>
+			  <div id="timer"></div>
+			  <h1>Spill the beans</h1>
+			  <div class="line-loading"></div>
+			  </br>  
+			  <div class="muiten" id="muiten"></div>
+			  </br>
+			  <div class="hopqua1" id="hopqua1" onclick="hopqua1_cl()"></div>
+			   
+			   
+			   <div class="action">
+				  <i class="fa fa-times action-item action-dislike"></i>
+				  <i class="fa fa-heart action-item action-like"></i>
+				</div>
+		</div> 
+		 
+		<div id="myModal1" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" > 
+			<div class="modal-body">
+				<div class="banhsn"></div>
+				</br>
+				<div class="box">
+				  <div class="coin"></div>
+				</div>
+				</br>
+				<div class="text-banhsn"> </div> 
+				
+				
+				<!--
+			  <audio id="beep" src="D:/WEB/tinhm.github.io/pict/hpbd.mp3" autoPlay muted></audio> 
+			  -->
+			  <audio id="beep" src="https://tinhm.github.io/pict/hpbd.mp3" autoPlay muted></audio>
+			  
+			 
+			</div> 
+		</div>
+		  
+		<div id="myModal3" class="modal" tabindex="-1" role="dialog">
+		  
+			<div class="modal-content">
+			  
+			  <div class="modal-body">
+				
+					<div class="text_end"> 
+					   
+					</div>
+			  </div>
+			  <div class="modal-footer">
+					<div class="col-xs-4"></div>
+					<div class="col-xs-4"><button type="button" ><a class="link" href="https://m.me/manhtin08" style ="color: red !important;" >Nhắn Tin</a></button></div>
+					<div class="col-xs-4"></div>
+			  </div>
+			</div>
+		 
+		</div>
+  <!--
+		<link rel="stylesheet" href="D:/WEB/tinhm.github.io/css/my_css.css" type="text/css" /> 
+		<script language="javascript" src="D:/WEB/tinhm.github.io/js/my_js.js"></script>  
+		-->
+		<link rel="stylesheet" href="https://tinhm.github.io/css/my_css.css" type="text/css" /> 
+		<script language="javascript" src="https://tinhm.github.io/js/my_js.js"></script>  
+		
+     </body>
+     </html>
